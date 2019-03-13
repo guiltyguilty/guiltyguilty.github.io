@@ -14,7 +14,7 @@ class MessageDisturbElement {
     element,
     rate = 0.001,
     time = 100,
-    alph = 'abcdefghijklmnopqrstuvwxyz@[]%&/ '
+    alph = 'abcdefghijklmnopqrstuvwxyz0123456789@[]%&/{}\.,:; '
   ) {
     this.element = element;
     this.message = element.innerHTML;
