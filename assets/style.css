@@ -38,9 +38,16 @@ body {
 
 .gif-wrap img {
     max-width: 90vw;
-    max-height: 80vh;
+    max-height: 70vh;
 }
 
 .hidden {
     visibility: hidden;
+}
+
+@media (min-width: 555px) AND (min-height: 625px) {
+    .gif-wrap img {
+        max-width: 500px;
+        max-height: 500px;
+    }
 }
