@@ -14,7 +14,7 @@ class MessageDisturbElement {
     element,
     rate = 0.001,
     time = 100,
-    alph = 'abcdefghijklmnopqrstuvwxyz0123456789@[]%&/{}\.,:; '
+    alph = 'abcdefghijklmnopqrstuvwxyz0123456789@[]%&/{}\\.,:; '
   ) {
     this.element = element;
     this.message = element.innerHTML;
@@ -144,8 +144,6 @@ function next() {
   gifs[currentGif].classList.add('hidden');
   currentGif = (currentGif + 1) % gifs.length;
   gifs[currentGif].classList.remove('hidden');
-  console.log(gifs);
 }
 
 body.addEventListener('click', next);
-console.log(document.body.children);
