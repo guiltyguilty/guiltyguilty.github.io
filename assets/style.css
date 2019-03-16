@@ -58,3 +58,9 @@ body {
         max-height: 500px;
     }
 }
+
+@media only screen and (max-width: 415px) {
+    .gif-wrap img {
+        max-height: 60vh;
+    }
+}
